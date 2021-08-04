@@ -3,6 +3,10 @@
   "multiserver": false,
   "themes": [
     {
+      "name": "MDA-Play",
+      "id": "mdaplay",
+      "default": true
+    }, {
       "name": "Apple TV",
       "id": "appletv"
     }, {
@@ -10,8 +14,7 @@
       "id": "blueradiance"
     }, {
       "name": "Dark",
-      "id": "dark",
-      "default": true
+      "id": "dark"
     }, {
       "name": "Light",
       "id": "light"

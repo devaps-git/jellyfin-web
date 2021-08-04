@@ -563,7 +563,7 @@ import Headroom from 'headroom.js';
         return getToolsMenuHtml(apiClient).then(function (toolsMenuHtml) {
             let html = '';
             html += '<a class="adminDrawerLogo clearLink" is="emby-linkbutton" href="#!/home.html">';
-            html += '<img src="assets/img/icon-transparent.png" />';
+            html += '<img src="themes/mdaplay/svg/icon-transparent.svg" />';
             html += '</a>';
             html += toolsMenuHtml;
             navDrawerScrollContainer.innerHTML = html;
@@ -920,7 +920,7 @@ import Headroom from 'headroom.js';
             pageTitleElement.innerHTML = '';
         }
 
-        document.title = 'Jellyfin';
+        document.title = 'MDAPlay';
     }
 
     function setTitle (title) {
@@ -945,7 +945,7 @@ import Headroom from 'headroom.js';
             pageTitleElement.innerHTML = html || '';
         }
 
-        document.title = title || 'Jellyfin';
+        document.title = title || 'MDAPlay';
     }
 
     function setTransparentMenu (transparent) {
